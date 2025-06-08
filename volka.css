@@ -79,27 +79,3 @@ body {
       padding: 1rem;
       margin-top: 2rem;
     }
-
-
-
-#scrollToTop {
-  position: fixed;
-  bottom: 50px;
-  right: 5px;
-  background-color: #222;
-  color: white;
-  font-size: 30px;         
-  text-align: center;
-  padding: 14px 18px;    
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  z-index: 1000;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  pointer-events: none;
-}
-#scrollToTop.show {
-  opacity: 1;
-  pointer-events: auto;
-}
